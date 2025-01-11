@@ -63,7 +63,7 @@ class Grade(Base):
 
 
 # Ініціалізація бази даних
-DATABASE_URL = "postgresql+psycopg2://postgres:AlinaR@localhost:5432/postgres"
+DATABASE_URL = "postgresql+psycopg2://postgres:AlinaR@localhost:5432/student_db_project"
 
 
 def init_db():

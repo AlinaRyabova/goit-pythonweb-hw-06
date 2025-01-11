@@ -13,7 +13,7 @@ init(autoreset=True)
 fake = Faker()
 
 # Налаштування підключення до бази даних
-DATABASE_URL = "postgresql+psycopg2://postgres:AlinaR@localhost:5432/postgres"
+DATABASE_URL = "postgresql+psycopg2://postgres:AlinaR@localhost:5432/student_db_project"
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
 session = Session()
